@@ -23,8 +23,8 @@ void scrollCallback(GLFWwindow *window, double xoffset, double yoffset)
     fov -= (float)yoffset;
     if (fov < 1.0f)
         fov = 1.0f;
-    if (fov > 45.0f)
-        fov = 45.0f;
+    if (fov > 60.0f)
+        fov = 60.0f;
 }
 
 Camera::Camera(GLFWwindow *window, unsigned int shaderProgram, float radius)

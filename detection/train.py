@@ -98,7 +98,7 @@ model.fit(
    x=x_train,
    y=y_train,
    batch_size=5,
-   epochs=100,
+   epochs=40,
    validation_data=(x_val, y_val),
 )
 
