@@ -9,11 +9,17 @@ To run:
 ```bash
 pip install -r requirements.txt
 python read.py
-cd 3d
+cd 3d\ reconstruction/
 ./run.sh
 ```
 
 Hold left click and move the mouse to rotate the camera. Use the left/right arrow keys to adjust the horizontal slice and top/down to adjust vertical cut.
+
+<img width="660" height="718" alt="image" src="https://github.com/user-attachments/assets/938841ca-c6a9-4e08-aa9e-bddb8da8e512" />
+
+<img width="960" height="776" alt="image" src="https://github.com/user-attachments/assets/bcd731d6-08a2-4ad2-b479-32a475caf9b8" />
+
+
 ## Detection
 Use prepare.ipynb to prepare data
 
