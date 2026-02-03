@@ -1,0 +1,8 @@
+/subset0
+/data
+venv
+.vscode
+run.sh
+mesh
+processedData
+link do dataset
